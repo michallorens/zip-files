@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-DIR="$(dirname "${BASH_SOURCE[0]}")/build/src"
+DIR="$(dirname "${BASH_SOURCE[0]}")/src"
 rm -rf "$DIR"
 mkdir "$DIR"
 for FILE in "$@"
