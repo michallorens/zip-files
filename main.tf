@@ -4,6 +4,6 @@ data external default {
 
 data archive_file default {
   type        = "zip"
-  output_path = "${path.module}/build/cloud-function-template.zip"
+  output_path = "${path.module}/build/${var.archive_name}.zip"
   source_dir  = data.external.default.result.path
 }
