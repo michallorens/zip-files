@@ -1,6 +1,6 @@
 # Usage
 ```hcl-terraform
-module aws_lambda_python_layer {
+module zip-files {
   source = "github.com/michallorens/zip-files"
 
   source_files = [
